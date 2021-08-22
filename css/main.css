@@ -1,0 +1,71 @@
+.mb-extra {
+    margin-bottom: 100px !important;
+}
+.hero-bg {
+    background-color: #264653;
+}
+.login-btn {
+    background-color: #e76f51;
+    color: white !important;
+    border-radius: 5px;
+    padding: 8px 20px !important;
+}
+.hero-btn {
+    color: white;
+    background-color: #e76f51;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 40px;
+}
+.news-btn {
+    border: 1.5px solid #e76f51 !important;
+    background-color: #fff;
+    color: #e76f51;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 30px;
+}
+.img-grayscale {
+    filter: grayscale(100%);
+}
+.main-color,
+.fa-star {
+    color: #e76f51;
+}
+.client-img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+}
+.accordion-button {
+    border: 0.5px solid rgba(221, 221, 221, 0.534) !important;
+    color: black !important;
+    background-color: white !important;
+}
+.accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+.accordion-body {
+    color: #777;
+}
+.accordion-item {
+    margin-bottom: 10px;
+}
+.specs-link {
+    width: 130px;
+    transition: 0.3s;
+}
+.specs-link:hover {
+    color: #e76f51 !important;
+}
+.signup {
+    background-image: url(/images/bg-white-dotted.webp);
+}
+footer {
+    background-color: #0b0d17;
+}
+main {
+    overflow-x: hidden;
+}
