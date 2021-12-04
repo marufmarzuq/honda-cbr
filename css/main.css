@@ -29,23 +29,29 @@ p.cover-pera1 {
 .hero-bg {
     background: linear-gradient(30deg, #000000, #434343);
 }
+.img-saturate {
+    filter: saturate(3.5);
+}
 .login-btn {
-    background-color: #fb643e;
-    color: white !important;
+    background: linear-gradient(46deg, rgb(12 12 12 / 2%), rgb(255 255 255 / 52%));
     border-radius: 5px;
-    padding: 8px 20px !important;
+    border: 1px solid rgb(68, 68, 68);
+    transition: all 0.4s ease 0s;
+    color: rgb(221, 221, 221) !important;
+    padding: 7px 28px !important;
 }
 .hero-btn {
-    color: white;
-    background-color: #fb643e;
+    color: #ddd;
     border-radius: 5px;
-    padding: 10px 40px;
-    border: 2px solid #fb643e;
-    transition: 0.3s;
+    padding: 13px 40px;
+    border: 1px solid black;
+    background: linear-gradient(67deg, #1a1a1a, #ffffff8c);
+    transition: 0.4s;
 }
-.hero-btn:hover {
+.hero-btn:hover,
+.login-btn:hover {
     background: transparent;
-    color: #fb643e;
+    border: 1px solid #ddd;
 }
 .news-btn {
     border: 1.5px solid #fb643e !important;
@@ -92,6 +98,13 @@ p.cover-pera1 {
 }
 .signup {
     background-image: url(/images/bg-white-dotted.webp);
+}
+.form-btn {
+    background-color: #fb643e;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
 }
 footer {
     background-color: #0b0d17;
