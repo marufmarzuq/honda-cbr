@@ -1,8 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600&family=Jost:wght@200;300;400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700&family=Raleway:wght@400;700;900&display=swap");
+body {
+    font-family: "Poppins", sans-serif;
+}
+.navbar-dark .navbar-brand {
+    color: #fff;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+p.cover-pera1 {
+    font-size: 20px;
+}
+h1.cover-title {
+    font-size: clamp(20px, 8vw, 55px);
+    color: #e7e7e7;
+}
+p.cover-pera2 {
+    font-size: 18px;
+    font-weight: 300;
+    color: #ddd;
+}
+p.cover-pera1 {
+    font-size: 20px;
+    color: #ddd;
+}
 .mb-extra {
     margin-bottom: 100px !important;
 }
 .hero-bg {
-    background-color: #264653;
+    background: linear-gradient(30deg, #000000, #434343);
 }
 .login-btn {
     background-color: #e76f51;
@@ -13,9 +38,14 @@
 .hero-btn {
     color: white;
     background-color: #e76f51;
-    border: none;
     border-radius: 5px;
     padding: 10px 40px;
+    border: 2px solid #e76f51;
+    transition: 0.3s;
+}
+.hero-btn:hover {
+    background: transparent;
+    color: #e76f51;
 }
 .news-btn {
     border: 1.5px solid #e76f51 !important;
