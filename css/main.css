@@ -30,27 +30,27 @@ p.cover-pera1 {
     background: linear-gradient(30deg, #000000, #434343);
 }
 .login-btn {
-    background-color: #e76f51;
+    background-color: #fb643e;
     color: white !important;
     border-radius: 5px;
     padding: 8px 20px !important;
 }
 .hero-btn {
     color: white;
-    background-color: #e76f51;
+    background-color: #fb643e;
     border-radius: 5px;
     padding: 10px 40px;
-    border: 2px solid #e76f51;
+    border: 2px solid #fb643e;
     transition: 0.3s;
 }
 .hero-btn:hover {
     background: transparent;
-    color: #e76f51;
+    color: #fb643e;
 }
 .news-btn {
-    border: 1.5px solid #e76f51 !important;
+    border: 1.5px solid #fb643e !important;
     background-color: #fff;
-    color: #e76f51;
+    color: #fb643e;
     border: none;
     border-radius: 5px;
     padding: 10px 30px;
@@ -60,7 +60,7 @@ p.cover-pera1 {
 }
 .main-color,
 .fa-star {
-    color: #e76f51;
+    color: #fb643e;
 }
 .client-img {
     width: 150px;
@@ -88,7 +88,7 @@ p.cover-pera1 {
     transition: 0.3s;
 }
 .specs-link:hover {
-    color: #e76f51 !important;
+    color: #fb643e !important;
 }
 .signup {
     background-image: url(/images/bg-white-dotted.webp);
